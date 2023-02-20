@@ -57,7 +57,7 @@
 			<div class="contact-list">
 				<li><a href="#">Megumi Kato </a></li>
 				<li><a href="#">kbicuspit@gmail.com</a></li>
-				<li><a href="#">09164350616</a></li>
+				<li><a href="#">+639164350616</a></li>
 			</div>
 			-->
 			<h2> Contact Me </h2>
