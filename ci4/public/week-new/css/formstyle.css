@@ -1,0 +1,235 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	scroll-behavior: smooth;
+	
+
+
+}
+
+:root{
+	--bg-color: #111c54;
+	--text-color:  #fff;
+	--main-color: #cfbdd3;
+	--second-color: #4e4f60;
+	--other-color: 969ad1;
+	--h1-font: 6.2rem;
+	--h2-font: 3.5rem;
+	--p-font: 1.1rem;
+}
+body{
+	/*background: var(--bg-color);*/
+	color: var(--text-color);
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	background: url(../img/trynew.gif);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+}
+header{
+	font-family: 'Shadows Into Light', cursive;	
+	background: black;
+	position: absolute;
+	right: 500;
+	top: 0;
+	width: 100%;
+	z-index: 800;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 8px 16%;
+	border-bottom: 1px solid transparent;
+	font-weight: 200px;
+	transition: all .40s ease;
+
+}
+.logo img{
+	width: 140px;
+	height: auto;
+}
+.navbar{
+	display: flex;
+}
+.navbar a{
+	color: var(--other-color);
+	font-size: var(--p-font);
+	font-weight: 600%;
+	padding: 10px 25px;
+	margin: 0 2px;
+	border-radius: 0.9rem;
+	transition: all .50s ease;
+}
+.navbar a:hover{
+	background: #fff;
+	color: #d0bfd5;
+}
+
+.s-navbar{
+	position: left-side;
+	display: flex;
+	margin-top: 5px;
+	margin-bottom: 0px;
+
+}
+
+.s-navbar a:hover{
+	background: #fff;
+	color: #d0bfd5;
+}
+
+.s-navbar a{
+	color: var(--other-color);
+	font-size: var(--p-font);
+	padding: 2px 2px;
+	padding-left: 5px;
+	margin: 7px 2px;
+	border-radius: 9rem;
+	transition: all .50s5 ease;
+}
+
+#menu-icon{
+	font-size: 36px;
+	color: var(--text-color);
+	z-index: 10001;
+	cursor: pointer;
+	display: none;
+}
+
+home{
+	font-family: 'Fredoka One', cursive;
+	background-image: url(../img/wallp.gif);
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+	/*
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url(../img/trynew.gif);
+    background-image: url(../img/trynew.gif);
+	
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+*/
+}
+.home-title {
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-5);
+}
+h1, h2, p {
+    margin: 0;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	font-family: 'Fredoka One', cursive;
+}
+ 
+.contact-left{
+  flex-basis: 35%;
+}
+.contact-right{
+  flex-basis: 50%;
+}
+
+.contact-left p{
+  margin-top: 30px;
+}
+
+.contact-left p i{
+  color: #1fbbbb;
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.social-icons{
+  margin-top: 30px;
+}
+
+.social-icons a{
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #282724;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+.social-icons a:hover{
+  color: #dbfa7f74;
+  transform: translateY(-5px);
+}
+
+.btn{
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  transition: background 0.5s;
+  font-family: 'Fredoka One', cursive;
+}
+
+.btn:hover{
+  background: #cb91a3;
+}
+
+.btn.btn2{
+  display: inline-block;
+  background: #b097ec;
+  font-family: 'Fredoka One', cursive;
+}
+
+.contact-right form{
+  width: 100%;
+}
+
+form input, form textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #e8dede;
+  padding: 15px;
+  margin: 15px 0;
+  color: #422020;
+  font-size: 18px;
+  border-radius: 6px;
+  font-family: 'Fredoka One', cursive;
+}
+
+form .btn2{
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}

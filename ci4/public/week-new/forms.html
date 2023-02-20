@@ -1,0 +1,83 @@
+<!--Eto yung icopy paste sa index.html sa GITHUB-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal Profile</title>
+	
+	<link rel="apple-touch-icon" href="img/hmm.png">
+	<link rel="icon" type="image/png" href="img/hmm.png">
+	<link rel="stylesheet" type="text/css" href="css/formstyle.css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+	
+
+
+
+<script> // Click Me JS. Output CHange 
+	function myFunction() {
+	document.getElementById("demo").innerHTML = "Kathryn has an ENFP (Extraverted-Intuitive-Feeling-Perceiving) personality type. She likes spontaneity, new ideas and adventures and struggles being organized and sticking to a routine. She loves Jesus, helping and encouraging people, music and her two mini-poodles. She lives by the verse Isaiah 26:3. <br> <br> ~ Life is good, eternal life is better~ ";
+	}
+	
+</script>
+
+
+</head>
+
+
+<body>
+<header>
+		<a href="#" class="logo"><img src="img/logo.png"></a>
+		<div class="bx bx-menu" id="menu-icon"></div>
+		<!--
+		<ul class="navbar">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#gallery">Gallery</a></li>
+			<li><a href="#contact">Contact Me</a></li>
+		</ul>
+		-->
+		<ul class="s-navbar">
+				<li><a href="https://github.com/kathrynicuspit" class="btn" target="_blank"><img src="img/gitbtn.png" width="35px" height="35px"></a></li>
+				<li><a href="https://www.facebook.com/kathryn.chaaan/" class="btn" target="_blank"><img src="img/fbbtn.png" width="35px" height="35px"></a></li>
+				<li><a href="https://www.linkedin.com/in/kathryn-ann-icuspit-75659121a/" class="btn" target="_blank"><img src="img/lkdinbtn.png" width="35px" height="35px"></a></li>
+			</ul>
+		</header>
+	
+	<!--Forms-->
+	
+		<div class="container">
+		<div class="row">
+        
+        <div class="contact-right">
+          <!-- --------Form-------------->
+        
+		<p> Contact Me! </p>
+		
+            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="website" name="website" placeholder="Your Website">
+            <textarea name="comment" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+            </form>
+
+            <?php include 'form.php'; ?>
+          
+            
+        </div>
+      </div>
+	
+
+	
+</body>
+
+</html>
+
+	

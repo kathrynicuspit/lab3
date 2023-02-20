@@ -1,0 +1,588 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	scroll-behavior: smooth;
+	font-family: 'Shadows Into Light', cursive;	
+
+
+
+
+}
+
+:root{
+	--bg-color: #111c54;
+	--text-color:  #fff;
+	--main-color: #cfbdd3;
+	--second-color: #4e4f60;
+	--other-color: 969ad1;
+	--h1-font: 6.2rem;
+	--h2-font: 3.5rem;
+	--p-font: 1.1rem;
+}
+body{
+	/*background: var(--bg-color);*/
+	color: var(--text-color);
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	background: url(../img/trynew.gif);
+	/*background-attachment: local;*/
+	background-size: cover;
+	/*background-position: center;*/
+	display: flex;
+	/*align-items: center;*/
+}
+header{
+	font-family: 'Shadows Into Light', cursive;	
+	background: black;
+	position: fixed;
+	right: 500;
+	top: 0;
+	width: 100%;
+	z-index: 800;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 8px 16%;
+	border-bottom: 1px solid transparent;
+	font-weight: 200px;
+	transition: all .40s ease;
+
+}
+.logo img{
+	width: 140px;
+	height: auto;
+}
+.navbar{
+	display: flex;
+}
+.navbar a{
+	color: var(--other-color);
+	font-size: var(--p-font);
+	font-weight: 600%;
+	padding: 10px 25px;
+	margin: 0 2px;
+	border-radius: 0.9rem;
+	transition: all .50s ease;
+}
+.navbar a:hover{
+	background: #fff;
+	color: #493979;
+}
+
+.s-navbar{
+	position: left-side;
+	display: flex;
+	margin-top: 5px;
+	margin-bottom: 0px;
+
+}
+
+.s-navbar a:hover{
+	background: #fff;
+	color: #493979;
+}
+
+.s-navbar a{
+	color: var(--other-color);
+	font-size: var(--p-font);
+	padding: 2px 2px;
+	padding-left: 5px;
+	margin: 7px 2px;
+	border-radius: 9rem;
+	transition: all .50s5 ease;
+}
+
+#menu-icon{
+	font-size: 36px;
+	color: var(--text-color);
+	z-index: 10001;
+	cursor: pointer;
+	display: none;
+}
+
+home{
+	font-family: 'Fredoka One', cursive;
+	background-image: url(../img/trynew.gif);
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+	/*
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url(../img/trynew.gif);
+    background-image: url(../img/trynew.gif);
+	
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+*/
+}
+.home-title {
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-5);
+}
+h1, h2, p {
+    margin: 0;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+  #videoplayer{
+	 position: center;
+	 top: -100px;
+	 left: 800px;
+  }
+  
+ /*About Stuff section*/
+ 
+ .about{
+	width: 100%;
+	padding: 100px 0px;
+	position: relative;
+	bottom:0%;
+    width:100%;
+	
+}
+.about img{
+	height: auto;
+	width: 430px;
+	margin-top: 50px;
+    overflow: clip;
+}
+
+.about-text{
+	width:550px
+}
+
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items:center;
+	justify-content: space-around;
+	
+}
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	font-family: 'Urbanist', sans-serif;
+	
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+	font-family: 'Urbanist', sans-serif;
+	
+}
+.about-text p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+	font-family: 'Urbanist', sans-serif;
+}
+
+button{
+	background-color: #B24C89;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s;
+	
+}
+
+button:hover{
+	background-color: transparent;
+	border: 2px solid #B24C89;
+	cursor: pointer;
+}
+
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #4A6C8B;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	
+}
+
+.card i {
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #FAF1E4;
+}
+
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+
+.pra p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items:center;
+	justify-content: space-around;
+	position: local;
+
+	
+}
+
+/*PIANO SECTION*/
+
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+}
+.wrapper {
+  padding: 35px 40px;
+  border-radius: 20px;
+  background: #141414;
+}
+.wrapper header {
+  display: flex;
+  color: #B2B2B2;
+  align-items: center;
+  justify-content: space-between;
+}
+footer h2 {
+  font-size: 1.6rem;
+  
+}
+footer .column {
+  display: flex;
+  align-items: center;
+}
+footer span {
+  font-weight: 500;
+  margin-right: 15px;
+  font-size: 1.19rem;
+    font-family: 'Fredoka One', sans-serif;
+
+}
+footer input {
+  outline: none;
+  border-radius: 30px;
+}
+.volume-slider input {
+  accent-color: #fff;
+}
+.keys-checkbox input {
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  appearance: none;
+  position: relative;
+  background: #4B4B4B
+}
+.keys-checkbox input::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #8c8c8c;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+.keys-checkbox input:checked::before {
+  left: 35px;
+  background: #fff;
+}
+.piano-keys {
+  display: flex;
+  list-style: none;
+  margin-top: 40px;
+}
+.piano-keys .key {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  text-transform: uppercase;
+}
+.piano-keys .black {
+  z-index: 2;
+  width: 44px;
+  height: 140px;
+  margin: 0 -22px 0 -22px;
+  border-radius: 0 0 5px 5px;
+  background: linear-gradient(#333, #000);
+}
+.piano-keys .black.active {
+  box-shadow: inset -5px -10px 10px rgba(255,255,255,0.1);
+  background:linear-gradient(to bottom, #000, #434343);
+}
+.piano-keys .white {
+  height: 230px;
+  width: 70px;
+  border-radius: 8px;
+  border: 1px solid #000;
+  background: linear-gradient(#fff 96%, #eee 4%);
+}
+.piano-keys .white.active {
+  box-shadow: inset -5px 5px 20px rgba(0,0,0,0.2);
+  background:linear-gradient(to bottom, #fff 0%, #eee 100%);
+}
+.piano-keys .key span {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  color: #A2A2A2;
+  font-size: 1.13rem;
+  text-align: center;
+}
+.piano-keys .key.hide span {
+  display: none;
+}
+.piano-keys .black span {
+  bottom: 13px;
+  color: #888888;
+}
+@media screen and (max-width: 815px) {
+  .wrapper {
+    padding: 25px;
+  }
+  footer {
+    flex-direction: column;
+  }
+  footer :where(h2, .column) {
+    margin-bottom: 13px;
+  }
+  .volume-slider input {
+    max-width: 100px;
+  }
+  .piano-keys {
+    margin-top: 20px;
+  }
+  .piano-keys .key:where(:nth-child(9), :nth-child(10)) {
+    display: none;
+  }
+  .piano-keys .black {
+    height: 100px;
+    width: 40px;
+    margin: 0 -20px 0 -20px;
+  }
+  .piano-keys .white {
+    height: 180px;
+    width: 60px;
+  }
+}
+@media screen and (max-width: 615px) {
+  .piano-keys .key:nth-child(13),
+  .piano-keys .key:nth-child(14),
+  .piano-keys .key:nth-child(15),
+  .piano-keys .key:nth-child(16),
+  .piano-keys .key :nth-child(17) {
+    display: none;
+  }
+  .piano-keys .white {
+    width: 50px;
+  }
+}
+
+/*GALLERY*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  display: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.container-gallery{
+	margin: 10px;
+}
+
+/*CONTACT*/
+
+.contact-text h4{
+	margin: 15px 0;
+	color: var(--main-color);
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Fredoka One', cursive;
+
+}
+.contact-text h2{
+	font-size: var(--h2-font);
+	font-family: 'Fredoka One', cursive;
+	margin-top: 50px;
+	
+}
+.contact-text p{
+	color: white;
+	font-size: var(--p-font);
+	line-height: 30px;
+	margin-bottom: 2rem;
+}
+.contact-list{
+	margin-bottom: 3rem;
+	font-family: 'Fredoka One', cursive;
+
+}
+.contact-list li{
+	margin-bottom: 10px;
+	display: block;
+}
+.contact-list li a{
+	display: block;
+	color: white;
+	font-size: var(--p-font);
+	font-weight: 600;
+	transition: all .40s ease;
+}
+.contact-list li a:hover{
+	transform: scale(1.01) translateY(-5px);
+	color: violet;
+}
+/*
+.contact-icons i{
+	height: 40px;
+	width: 40px;
+	background: white;
+	border-radius: 0.5rem;
+	color: #d0bfd5;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	margin-right: 10px;
+	transition: all .40s ease;
+}
+*/
+.contact-icons i:hover{
+	transform: scale(1.01) translateY(-5px);
+	color: red;
+	background: white;
+}
+
+.contact-form form{
+	position: relative;
+}
+.contact-form form input,
+form textarea{
+	border: none;
+	outline: none;
+	width: 100%;
+	padding: 18px;
+	background: rgb(243, 238, 246);
+	color: #5a3662;
+	font-size: 1rem;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+	border-radius: 0.5rem;
+	font-family: 'Urbanist', sans-serif;
+
+}
+.contact-form textarea{
+	color: #72437c;
+	resize: none;
+	height: 220px;
+}
+.contact-form form .send{
+	display: inline-block;
+	font-size: 17px;
+	font-weight: 500;
+	background: white;
+	color:#673273;
+	width: 190px;
+	transition: all .40s ease;
+	cursor: pointer;
+}
+
+.last-text p{
+	text-align: center;
+	padding: 15px;
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
