@@ -1,0 +1,12 @@
+CRITICAL - 2023-02-20 14:18:47 --> include(forms.php): failed to open stream: No such file or directory
+in APPPATH\Views\pages\contact.php on line 84.
+ 1 APPPATH\Views\pages\contact.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(forms.php): failed to open stream: No such file or directory', 'APPPATH\\Views\\pages\\contact.php', 84, [...])
+ 2 APPPATH\Views\pages\contact.php(84): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\contact.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/contact', [], true)
+ 6 APPPATH\Controllers\Pages.php(25): view('pages/contact')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('contact')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
