@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
-    <title>CodeIgniter Tutorial</title>
+    <title>CodeIgnigter Tutorial</title>
 </head>
 <body>
 
-    <h1><?= esc($title) ?></h1>
+<h1><?= esc($title) ?></head>
