@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+    
     <title>CodeIgnigter Tutorial</title>
 </head>
 <body>
