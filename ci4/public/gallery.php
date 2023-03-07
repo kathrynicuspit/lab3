@@ -53,21 +53,21 @@
 	<section id="container-gallery">
 			<div class="row">
 		  <div class="column">
-			<img src="/public/imgg/1.jpg">
-			<img src="/public/imgg/2.jpg">
-			<img src="/public/imgg/3.jpg">
-			<img src="/public/imgg/4.jpg">
-			<img src="/public/imgg/5.jpg">
-			<img src="/public/imgg/6.jpg">
-			<img src="/public/imgg/7.jpg">
+			<img src="/imgg/1.jpg">
+			<img src="/imgg/2.jpg">
+			<img src="/imgg/3.jpg">
+			<img src="/imgg/4.jpg">
+			<img src="/imgg/5.jpg">
+			<img src="/imgg/6.jpg">
+			<img src="/imgg/7.jpg">
 		  </div>
 		  <div class="column">
-			<img src="/public/imgg/8.jpg">
-			<img src="/public/imgg/9.jpg">
-			<img src="/public/imgg/10.jpg">
-			<img src="/public/imgg/1.jpg">
-			<img src="/public/imgg/2.jpg">
-			<img src="/public/imgg/3.jpg">
+			<img src="/imgg/8.jpg">
+			<img src="/imgg/9.jpg">
+			<img src="/imgg/10.jpg">
+			<img src="/imgg/1.jpg">
+			<img src="/imgg/2.jpg">
+			<img src="/imgg/3.jpg">
 		  </div>
 		  <div class="column">
 			<img src="imgg/4.jpg">
