@@ -45,7 +45,7 @@
 			<li><a href="about.html">About Me</a></li>
 			<li><a href="piano.php">Piano</a></li>
 			<li><a href="gallery.php">Gallery</a></li>
-			<li><a href="contact.php">Contact Me</a></li>
+			<li><a href="/~kbicuspit/lab3/ci4/public/contact.php">Contact Me</a></li>
 		</ul>
 		
 		<ul class="s-navbar">
