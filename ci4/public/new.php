@@ -48,7 +48,7 @@
 	<!--HOME-->
 	
 	
-	<video id="videoplayer" controls width="490" height="370">
+	<video id="videoplayer" controls width="890" height="770">
 		<source 
 			src="videos/vidintro.mp4"
 			type="video/mp4"
