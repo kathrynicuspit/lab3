@@ -31,11 +31,11 @@
 		<div class="bx bx-menu" id="menu-icon"></div>
 		
 		<ul class="navbar">
-			<li><a href="new.html">Home</a></li>
-			<li><a href="about.html">About Me</a></li>
-			<li><a href="piano.html">Piano</a></li>
-			<li><a href="gallery.html">Gallery</a></li>
-			<li><a href="contact.php">Contact Me</a></li>
+			<li><a href="/~kbicuspit/lab3/ci4/public/new.php">Home</a></li>
+			<li><a href="/~kbicuspit/lab3/ci4/public/about">About Me</a></li>
+			<li><a href="/~kbicuspit/lab3/ci4/public/piano.php">Piano</a></li>
+			<li><a href="/~kbicuspit/lab3/ci4/public/gallery.php">Gallery</a></li>
+			<li><a href="/~kbicuspit/lab3/ci4/public/contact.php">Contact Me</a></li>
 		</ul>
 		
 		<ul class="s-navbar">
@@ -65,9 +65,9 @@
 			<!-- PHP for displaying records in a table -->
 
 <?php
-$servername = "localhost";
+$servername = "192.168.150.213";
 $username = "webprogmi211";
-$password = "webprogmi211";
+$password = "j@zzyAngle30";
 $dbname = "webprogmi211";
 
 // Create connection
