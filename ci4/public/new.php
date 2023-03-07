@@ -50,7 +50,7 @@
 	
 	<video id="videoplayer" controls width="490" height="370">
 		<source 
-			src="/media/videos/vidintro.mp4"
+			src="media/videos/vidintro.mp4"
 			type="video/mp4"
 		/>
 	</video>
