@@ -46,11 +46,20 @@
 		</header>
 	
 	<!--HOME-->
+	
+	
+	<video id="videoplayer" controls width="490" height="370">
+		<source 
+			src="media/videos/vidintro.mp4"
+			type="video/mp4"
+		/>
+	</video>
+	<!--
 	<div class="content">
 		
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/FZvG2rpnIUk?loop=1" title="Listen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>	
 	</div>
-	
+	-->
 	
 	
 	
