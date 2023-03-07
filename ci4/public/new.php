@@ -34,7 +34,7 @@
 			<li><a href="/~kbicuspit/lab3/ci4/public/new.php">Home</a></li>
 			<li><a href="/~kbicuspit/lab3/ci4/public/about">About Me</a></li>
 			<li><a href="/~kbicuspit/lab3/ci4/public/piano.php">Piano</a></li>
-			<li><a href="/~kbicuspit/lab3/ci4/public/gallery.php">Gallery</a></li>
+			<li><a href="/~kbicuspit/lab3/ci4/public/guests.php">Guests</a></li>
 			<li><a href="/~kbicuspit/lab3/ci4/public/contact.php">Contact Me</a></li>
 		</ul>
 		
